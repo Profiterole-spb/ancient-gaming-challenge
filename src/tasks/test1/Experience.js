@@ -101,6 +101,10 @@ export default class Experience extends Application {
       .to(sprite, {x: position.x, duration: FLYING_DURATION})
       .to(sprite, {y: y + height / 2 - 100, duration: FLYING_DURATION / 2, ease: "power1.out"}, 0)
       .to(sprite, {y: position.y, duration: FLYING_DURATION / 2, ease: "power1.in"}, FLYING_DURATION / 2)
+      .to(sprite, {rotation: -0.1, duration: 1}, 0)
+      .to(sprite, {rotation: 0, duration: 1}, FLYING_DURATION / 2)
+      .to(sprite.skew, {x: -0.1, y: 0.3, duration: 1}, 0)
+      .to(sprite.skew, {x: 0, y: 0, duration: 1}, FLYING_DURATION / 2)
       .eventCallback('onStart', () => {
         contA.cacheAsBitmap = false;
         this.updateSprites()
