@@ -1,3 +1,12 @@
+import {useEffect, useRef} from "react";
+import Experience from "./Experience.js";
+
 export default function Test3() {
-  return <div>Test3</div>
+  const containerRef = useRef();
+  useEffect(() => {
+    const experience = new Experience()
+    containerRef.current.appendChild(experience.view)
+    return () => {experience.destroy(true)}
+  }, [])
+  return <div className={'canvas-wrapper'} ref={containerRef}></div>
 }

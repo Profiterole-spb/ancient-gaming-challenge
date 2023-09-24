@@ -8,6 +8,19 @@
           "srcs": "../../cards/cards.json"
         }
       ]
+    },
+    {
+      "name": "fire",
+      "assets": [
+        {
+          "name": "fire",
+          "srcs": "../../fire.png"
+        },
+        {
+          "name": "particle",
+          "srcs": "../../particle.png"
+        }
+      ]
     }
   ]
 }

@@ -9,7 +9,7 @@ export default function Lobby() {
         <ul className={"mt-8"}>
           <li className={"p-2"}><GameCard title={'Test 1'} href={'/game/test1'}/></li>
           <li className={"p-2"}><GameCard title={'Test 2'} href={'/game/test2'}/></li>
-          <li className={"p-2"}><GameCard title={'Test 3'} href={'/game/test2'}/></li>
+          <li className={"p-2"}><GameCard title={'Test 3'} href={'/game/test3'}/></li>
         </ul>
       </main>
   </>

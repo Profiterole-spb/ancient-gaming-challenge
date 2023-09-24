@@ -122,10 +122,12 @@ export default class Experience extends Application {
   updateTimer(time, deltaTime, frame) {
     this.time += deltaTime;
     this.frames++;
-    if (this.time >= SHIFT_PERIOD) {
-      this.time = 0;
+    if (this.time >= 1000) {
       this.fps.text = 'fps: ' + this.frames
       this.frames = 0;
+    }
+    if (this.time >= SHIFT_PERIOD) {
+      this.time = 0;
       this.shiftCard();
     }
   }

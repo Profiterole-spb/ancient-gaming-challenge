@@ -25,6 +25,7 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@pixi/particle-emitter": "^5.0.8",
     "gsap": "^3.12.2",
     "pixi-filters": "^5.2.1",
     "pixi.js": "^7.3.1",

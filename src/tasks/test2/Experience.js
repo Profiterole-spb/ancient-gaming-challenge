@@ -3,7 +3,7 @@ import Viewport from "../base/Viewport.js";
 import {OutlineFilter} from "pixi-filters";
 import gsap from 'gsap';
 
-const SPAWN_PERIOD = 2000;
+const SPAWN_PERIOD = 1000;
 const FLYING_DURATION = 2;
 const EMOTICONS = [
   0x1F600,
@@ -43,17 +43,7 @@ export default class Experience extends Application {
   }
 
   run() {
-    this.init()
-      .then(this.load.bind(this))
-      .then(this.create.bind(this))
-  }
-
-  async init() {
-    await Assets.init({manifest: '../../manifest.json'})
-  }
-
-  async load() {
-    await Assets.loadBundle('cards')
+    this.create()
   }
 
   create() {
@@ -74,10 +64,12 @@ export default class Experience extends Application {
   updateTimer(time, deltaTime, frame) {
     this.time += deltaTime;
     this.frames++;
-    if (this.time >= SPAWN_PERIOD) {
-      this.time = 0;
+    if (this.time >= 1000) {
       this.fps.text = 'fps: ' + this.frames
       this.frames = 0;
+    }
+    if (this.time >= SPAWN_PERIOD) {
+      this.time = 0;
       this.spawnText()
     }
   }
