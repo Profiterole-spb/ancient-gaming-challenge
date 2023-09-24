@@ -162,4 +162,9 @@ export default class Experience extends Application {
     this.fps.x = x + 30;
     this.fps.y = y + 30;
   }
+
+  destroy(removeView, stageOptions) {
+    super.destroy(removeView, stageOptions);
+    gsap.ticker.remove(this.updateTimer)
+  }
 }
