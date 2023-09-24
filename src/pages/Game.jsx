@@ -5,14 +5,14 @@ import Test3 from "../tasks/test3/Test3.jsx";
 
 export default function Game() {
   const {title} = useParams();
-  return (<>
+  return (<div className={"w-full h-full flex flex-col"}>
     <header className={"bg-blue-400"}>
       <a href="/" className={"p-1 text-blue-50"}>Back to lobby</a>
     </header>
-    <main>
+    <main className={"content w-full flex-auto relative overflow-hidden"}>
       {title==='test1' && <Test1/>}
       {title==='test2' && <Test2/>}
       {title==='test3' && <Test3/>}
     </main>
-  </>)
+  </div>)
 }

@@ -1,0 +1,427 @@
+{"frames": {
+
+"Clovers_2_white.png":
+{
+	"frame": {"x":1,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_3_white.png":
+{
+	"frame": {"x":1,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_4_white.png":
+{
+	"frame": {"x":167,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_5_white.png":
+{
+	"frame": {"x":1,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_6_white.png":
+{
+	"frame": {"x":167,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_7_white.png":
+{
+	"frame": {"x":333,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_8_white.png":
+{
+	"frame": {"x":1,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_9_white.png":
+{
+	"frame": {"x":167,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_10_white.png":
+{
+	"frame": {"x":333,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_A_white.png":
+{
+	"frame": {"x":499,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_Jack_white.png":
+{
+	"frame": {"x":1,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_King_white.png":
+{
+	"frame": {"x":167,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Clovers_Queen_white.png":
+{
+	"frame": {"x":333,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_2_white.png":
+{
+	"frame": {"x":499,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_3_white.png":
+{
+	"frame": {"x":665,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_4_white.png":
+{
+	"frame": {"x":1,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_5_white.png":
+{
+	"frame": {"x":167,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_7_white.png":
+{
+	"frame": {"x":333,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_8_white.png":
+{
+	"frame": {"x":499,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_9_white.png":
+{
+	"frame": {"x":665,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_10_white.png":
+{
+	"frame": {"x":831,"y":1,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_A_white.png":
+{
+	"frame": {"x":1,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_Jack_white.png":
+{
+	"frame": {"x":167,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_King_white.png":
+{
+	"frame": {"x":333,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Hearts_Queen_white.png":
+{
+	"frame": {"x":499,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Heats_6_white.png":
+{
+	"frame": {"x":665,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_2_white.png":
+{
+	"frame": {"x":831,"y":236,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_3_white.png":
+{
+	"frame": {"x":1,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_4_white.png":
+{
+	"frame": {"x":167,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_5_white.png":
+{
+	"frame": {"x":333,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_6_white.png":
+{
+	"frame": {"x":499,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_7_white.png":
+{
+	"frame": {"x":665,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_8_white.png":
+{
+	"frame": {"x":831,"y":471,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_9_white.png":
+{
+	"frame": {"x":167,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_10_white.png":
+{
+	"frame": {"x":1,"y":1881,"w":164,"h":233},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_A_white.png":
+{
+	"frame": {"x":333,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_Jack_white.png":
+{
+	"frame": {"x":499,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_King_white.png":
+{
+	"frame": {"x":665,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Pikes_Queen_white.png":
+{
+	"frame": {"x":831,"y":706,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_2_white.png":
+{
+	"frame": {"x":333,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_3_white.png":
+{
+	"frame": {"x":236,"y":1881,"w":164,"h":233},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_4_white.png":
+{
+	"frame": {"x":499,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_5_white.png":
+{
+	"frame": {"x":665,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_6_white.png":
+{
+	"frame": {"x":831,"y":941,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_7_white.png":
+{
+	"frame": {"x":499,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_8_white.png":
+{
+	"frame": {"x":665,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_9_white.png":
+{
+	"frame": {"x":831,"y":1176,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_10_white.png":
+{
+	"frame": {"x":665,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_A_white.png":
+{
+	"frame": {"x":471,"y":1881,"w":164,"h":233},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_Jack_white.png":
+{
+	"frame": {"x":831,"y":1411,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_King_white.png":
+{
+	"frame": {"x":831,"y":1646,"w":164,"h":233},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+},
+"Tiles_Queen_white.png":
+{
+	"frame": {"x":706,"y":1881,"w":164,"h":233},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":164,"h":233},
+	"sourceSize": {"w":164,"h":233}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "cards-0.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":2048},
+	"smartupdate": "$TexturePacker:SmartUpdate:f0320d41f7e308ffba30fc80dea254d1:779d97dfa70cc37729e29ce237183105:20ae5227f928c35568ac11773246dcaa$"
+}
+}

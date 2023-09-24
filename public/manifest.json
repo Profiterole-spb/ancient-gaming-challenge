@@ -1,0 +1,13 @@
+{
+  "bundles": [
+    {
+      "name": "cards",
+      "assets": [
+        {
+          "name": "cards",
+          "srcs": "../../cards/cards.json"
+        }
+      ]
+    }
+  ]
+}
