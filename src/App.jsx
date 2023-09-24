@@ -7,7 +7,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Lobby />}/>
-        <Route path={'game'} element={<Game/>}/>
+        <Route path={'game'}>
+          <Route path={":title"}  element={<Game/>}/>
+        </Route>
       </Routes>
     </BrowserRouter>
   )
