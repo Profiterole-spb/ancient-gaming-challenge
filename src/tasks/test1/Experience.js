@@ -43,7 +43,7 @@ export default class Experience extends Application {
     this.fps = new Text('fps: 0');
     this.viewport.addChild(this.fps)
 
-    const filter = new OutlineFilter(2, '#755206')
+    const filter = new OutlineFilter(1, '#755206')
 
     const textures = Object.values(Assets.get('cards').textures);
 
@@ -67,7 +67,7 @@ export default class Experience extends Application {
     const textA  = new Text(QUANTITY)
     textA.anchor.set(0.5, 0)
     const textB  = new Text(0)
-    textA.anchor.set(0.5, 0)
+    textB.anchor.set(0.5, 0)
     this.indicators = [textA, textB];
 
     this.viewport.addChild(containerA, containerB, textA, textB);
