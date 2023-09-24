@@ -1,7 +1,14 @@
 import Lobby from "./pages/Lobby.jsx";
+import Game from "./pages/Game.jsx";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 export default function App() {
   return (
-    <Lobby/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Lobby />}/>
+        <Route path={'game'} element={<Game/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }

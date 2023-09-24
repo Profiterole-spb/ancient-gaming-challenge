@@ -7,9 +7,9 @@ export default function Lobby() {
       </header>
       <main>
         <ul className={"mt-8"}>
-          <li className={"p-2"}><GameCard title={'Test 1'}/></li>
-          <li className={"p-2"}><GameCard title={'Test 2'}/></li>
-          <li className={"p-2"}><GameCard title={'Test 3'}/></li>
+          <li className={"p-2"}><GameCard title={'Test 1'} href={'/game?title=test1'}/></li>
+          <li className={"p-2"}><GameCard title={'Test 2'} href={'/game?title=test2'}/></li>
+          <li className={"p-2"}><GameCard title={'Test 3'} href={'/game?title=test2'}/></li>
         </ul>
       </main>
   </>
