@@ -23,7 +23,6 @@ export default class Viewport extends Container {
     const y = (1024 - this.getVh() / this.getScaleFactor()) / 2;
     this.bounds.x = x > 0 ? x : 0;
     this.bounds.y = y > 0 ? y : 0;
-    console.log('viewport resize')
     this.app.resizeScene()
   }
 

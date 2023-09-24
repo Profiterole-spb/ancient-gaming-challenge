@@ -1,4 +1,4 @@
-import {Application, Assets, Container, Sprite, Texture} from "pixi.js";
+import {Application, Assets, Container, Sprite, Texture, Text} from "pixi.js";
 import Viewport from "../base/Viewport.js";
 import {OutlineFilter} from "pixi-filters";
 import gsap from 'gsap';
@@ -9,10 +9,11 @@ const FLYING_DURATION = 2;
 
 export default class Experience extends Application {
   constructor() {
-    super({width: 1024, height: 1024});
+    super({width: 1024, height: 1024, resolution: 1});
     this.viewport = new Viewport(this);
     this.stage.addChild(this.viewport);
     this.time = 0;
+    this.frames = 0;
     this.containers = [];
     this.animations = [];
     this.run()
@@ -39,6 +40,9 @@ export default class Experience extends Application {
     bg.height = 1024;
     this.viewport.addChild(bg)
 
+    this.fps = new Text('fps: 0');
+    this.viewport.addChild(this.fps)
+
     const filter = new OutlineFilter(2, '#755206')
 
     const textures = Object.values(Assets.get('cards').textures);
@@ -60,7 +64,13 @@ export default class Experience extends Application {
 
     this.containers = [containerA, containerB];
 
-    this.viewport.addChild(containerA, containerB);
+    const textA  = new Text(QUANTITY)
+    textA.anchor.set(0.5, 0)
+    const textB  = new Text(0)
+    textA.anchor.set(0.5, 0)
+    this.indicators = [textA, textB];
+
+    this.viewport.addChild(containerA, containerB, textA, textB);
     this.viewport.resize();
     this.updateSprites();
 
@@ -73,9 +83,11 @@ export default class Experience extends Application {
     }
     if (this.containers[0].children.length === 0) {
       this.containers.reverse();
+      this.indicators.reverse();
     }
     const {x, y, width, height} = this.viewport.bounds;
     const [contA, contB] = this.containers;
+    const [textA, textB] = this.indicators;
     const index = contA.children.length - 1;
     const lastSprite = contA.children[index];
     lastSprite.getGlobalPosition(lastSprite.position);
@@ -93,6 +105,7 @@ export default class Experience extends Application {
         contA.cacheAsBitmap = false;
         this.updateSprites()
         contA.cacheAsBitmap = true;
+        textA.text = contA.children.length;
         this.viewport.addChild(sprite)
       })
       .eventCallback('onComplete', () => {
@@ -100,15 +113,19 @@ export default class Experience extends Application {
         contB.cacheAsBitmap = false;
         this.updateSprites()
         contB.cacheAsBitmap = true;
+        textB.text = contB.children.length;
         this.animations.splice(this.animations.indexOf(t), 1)
       })
     this.animations.push(t)
   }
 
-  updateTimer(time, deltaTime) {
+  updateTimer(time, deltaTime, frame) {
     this.time += deltaTime;
+    this.frames++;
     if (this.time >= SHIFT_PERIOD) {
       this.time = 0;
+      this.fps.text = 'fps: ' + this.frames
+      this.frames = 0;
       this.shiftCard();
     }
   }
@@ -134,8 +151,15 @@ export default class Experience extends Application {
       this.containers[0].position.set(x  + width / 2 - 140, y + height / 2 + 300)
       this.containers[1].position.set(x  + width / 2 + 130, y + height / 2 + 300)
     }
+    this.indicators.forEach((text, i) => {
+      text.x = this.containers[i].x;
+      text.y = this.containers[i].y + 120;
+    })
     this.animations.forEach((animation) => {
       animation.seek(animation.duration(), false)
     })
+
+    this.fps.x = x + 30;
+    this.fps.y = y + 30;
   }
 }
